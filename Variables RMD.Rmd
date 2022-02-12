@@ -260,41 +260,41 @@ possession <- possession %>%
 
 `Born`: Year of Birth
 
-`Mins_per_90`:
+`Mins_per_90`: Minutes played divided by 90
 
-`Gls`: 
+`Gls`: Goals scored or allowed
 
-`SH`: 
+`SH`: Shots total the does not include penalty kicks
 
-`SoT`: 
+`SoT`: Shots on target that do not include penalty kicks
 
-`SoT_percent`: 
+`SoT_percent`: Percentage of shots that are on target. Shots on target do not include penalty kicks
 
-`Sh_per_90`: 
+`Sh_per_90`: Shots total per 90 minutes
 
-`Sot_per_90`: 
+`Sot_per_90`: Shots on target per 90 minutes
 
-`G_per_Sh`: 
+`G_per_Sh`: Goals per shot
 
-`G_per_SoT`: 
+`G_per_SoT`: Goals per shot on target
 
-`Dist`: 
+`Dist`: Average distance, in yards, from goal of all shots taken
 
-`FK`: 
+`FK`: Shots from free kicks
 
-`PK`: 
+`PK`: Penalty Kicks Made
 
-`PKatt`: 
+`PKatt`: Penalty Kicks Attempted
 
-`xG`: 
+`xG`: Expected Goals
 
-`npxG`: 
+`npxG`: Non-Penalty Expected Goals
 
-`npxG_per_Sh`: 
+`npxG_per_Sh`:  Non-Penalty Expected Goals per shot
 
-`G_minus_xG`: 
+`G_minus_xG`: Goals minus Expected Goals
 
-`npG_minus_npxG`: 
+`npG_minus_npxG`: Non-Penalty Goals minus Non-Penalty Expected Goals
 
 ## Passing - Luke 
 
@@ -304,135 +304,133 @@ possession <- possession %>%
 
 ## Defensive Actions - Darron
 
-`Season_End_Year`:
+`Season_End_Year`: The year at the end of the season.
 
-`Squad`:
+`Squad`: The team the player plays on
 
-`Comp`:
+`Comp`: Annual compensation averaged across selected seasons
 
-`Player`:
+`Player`: The name of the player.
 
-`Nation`:
+`Nation`: Nationality of the Player.
 
-`Pos`:
+`Pos`: The position of the player
 
-`Age`:
+`Age`: The age of the player
 
-`Born`:
+`Born`: The year the player was born
 
-`Mins_Per_90`:
+`Mins_Per_90`: Minutes played divided by 90
 
-`Tkl`:
+`Tkl`: Number of players tackled
 
-`TklW`:
+`TklW`: Tackles in which the tackler's team won possession of the ball
 
-`Def_3rd`:
+`Def_3rd`: Tackles in defensive 1/3
 
-`Mid_3rd`:
+`Mid_3rd`:  Tackles in middle 1/3
 
-`Att_3rd`:
+`Att_3rd`: Tackles in attacking 1/3
 
-`Tkl_vs_dribble`:
+`Tkl_vs_dribble`: Number of dribblers tackled
 
-`Att_vs_dribble`:
+`Att_vs_dribble`: Number of times dribbled past plus number of tackles
 
-`Press_Pressures`:
+`Press_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the bal
 
-`Succ_Pressures`:
+`Succ_Pressures`: Number of times the squad gained possession withing five seconds of applying pressure
 
-`Successful_Pressure_Percent`:
+`Successful_Pressure_Percent`: Percentage of time the squad gained possession withing five seconds of applying pressure
+Minimum 6.44 pressures per squad game to qualify as a leader
 
-`Def_3rd_Pressures`:
+`Def_3rd_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the defensive 1/3
 
-`Mid_3rd_Pressures`:
+`Mid_3rd_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the middle 1/3
 
-`Att_3rd_Pressures`:
+`Att_3rd_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the attacking 1/3
 
-`Blocks`:
+`Blocks`: Number of times blocking the ball by standing in its path
 
-`Sh_Blocks`:
+`Sh_Blocks`: Number of times blocking a shot by standing in its path
 
-`ShSv_Blocks`:
+`ShSv_Blocks`: Number of times blocking a shot that was on target, by standing in its path
 
-`Pass_Blocks`:
+`Pass_Blocks`: Number of times blocking a pass by standing in its path
 
-`Int`:
+`Int`: Interceptions
 
-`Tkl+Int`:
+`Tkl+Int`: Number of players tackled plus number of interceptions
 
-`Clr`:
+`Clr`: Clearances
 
-`Err`:
+`Err`: Mistakes leading to an opponent's shot
 
 ## Possessions - Darron 
 
-`Season_End_Year`:
+`Season_End_Year`: The year at the end of the season.
 
-`Squad`:
+`Squad`: The team the player plays on
 
-`Comp`:
+`Comp`: Annual compensation averaged across selected seasons
 
-`Player`:
+`Player`: The name of the player.
 
-`Nation`:
+`Nation`: Nationality of the Player.
 
-`Pos`:
+`Pos`: The position of the player
 
-`Age`:
+`Age`: The age of the player
 
-`Born`:
+`Born`: The year the player was born
 
-`Touches`:
+`Touches`: Number of times a player touched the ball.
 
-`Def_Pen`:
+`Def_Pen`: Touches in defensive penalty area
 
-`Def_3rd_Touches`:
+`Def_3rd_Touches`: Touches in defensive 1/3
 
-`Mid_3rd_Touches`:
+`Mid_3rd_Touches`: Touches in middle 1/3
 
-`Att_3rd_Touches`:
+`Att_3rd_Touches`: Touches in attacking 1/3
 
-`Att_Pen_Touches`:
+`Att_Pen_Touches`: Touches in attacking penalty area
 
-`Live_Touches`:
+`Live_Touches`: Live-ball touches
 
-`Succ_Dribbles`:
+`Succ_Dribbles`: Dribbles Completed Successfully
 
-`Att_Dribbles`:
+`Att_Dribbles`: Dribbles Attempted
 
-`Succ_percent_Dribbles`:
+`Succ_percent_Dribbles`: Percentage of Dribbles Completed Successfully
 
-`#Pl_Dribbles`:
+`#Pl_Dribbles`: Number of Players Dribbled Past
 
-`Megs_Dribbles`:
+`Megs_Dribbles`: Number of times a player dribbled the ball through an opposing player's legs
 
-`Carries`:
+`Carries`: Number of times the player controlled the ball with their feet
 
-`TotDist_Carries`:
+`TotDist_Carries`: Total distance, in yards, a player moved the ball while controlling it with their feet, in any direction
 
-`PrgDist_Carries`:
+`PrgDist_Carries`: Progressive Distance
+Total distance, in yards, a player moved the ball while controlling it with their feet towards the opponent's goal
 
-`Prog_Carries`:
+`Prog_Carries`: Carries that move the ball towards the opponent's goal at least 5 yards, or any carry into the penalty area
 
-`Final_Third_Carries`:
+`Final_Third_Carries`: Carries that enter the 1/3 of the pitch closest to the goal
 
-`Prog_Carries`:
+`CPA_Carries`: Carries into the 18-yard box
 
-`Final_Third_Carries`:
+`Mis_Carries`: Number of times a player failed when attempting to gain control of a ball
 
-`CPA_Carries`:
+`Dis_Carries`: Number of times a player loses control of the ball after being tackled by an opposing player. Does not include attempted dribbles
 
-`Mis_Carries`:
+`Targ_Receiving`: Number of times a player was the target of an attempted pass
 
-`Dis_Carries`:
+`Rec_Receiving`: Number of times a player successfully received a pass
 
-`Targ_Receiving`:
+`Rec_percent_Receiving`: Passes Received Percentage
 
-`Rec_Receiving`:
-
-`Rec_percent_Receiving`:
-
-`Prog_Receiving`:
+`Prog_Receiving`: Progressive Passes Received
 
 
 ## Playing Time - Nick 
