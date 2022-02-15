@@ -260,7 +260,7 @@ possession <- possession %>%
 
 `Born`: Year of Birth
 
-`Mins_per_90`:
+`Mins_per_90`: Minutes played divided by 90
 
 `Gls`: 
 
