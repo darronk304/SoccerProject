@@ -262,39 +262,40 @@ possession <- possession %>%
 
 `Mins_per_90`: Minutes played divided by 90
 
-`Gls`: 
+`Gls`: Goals scored or allowed
 
-`SH`: 
+`SH`: Shots Total
 
-`SoT`: 
+`SoT`: Shots on target
 
-`SoT_percent`: 
+`SoT_percent`: Shots on target percentage
+Percentage of shots that are on target
 
-`Sh_per_90`: 
+`Sh_per_90`: Shots total per 90 minutes
 
-`Sot_per_90`: 
+`Sot_per_90`: Shots on target per 90 minutes
 
-`G_per_Sh`: 
+`G_per_Sh`: Goals per shot
 
-`G_per_SoT`: 
+`G_per_SoT`: Goals per shot on target
 
-`Dist`: 
+`Dist`: Average distance, in yards, from goal of all shots taken
 
-`FK`: 
+`FK`: Shots from free kicks
 
-`PK`: 
+`PK`: Penalty Kicks Made
 
-`PKatt`: 
+`PKatt`: Penalty Kicks Attempted
 
-`xG`: 
+`xG`: Expected Goals
 
-`npxG`: 
+`npxG`: Non-Penalty Expected Goals
 
-`npxG_per_Sh`: 
+`npxG_per_Sh`: Non-Penalty Expected Goals per shot
 
-`G_minus_xG`: 
+`G_minus_xG`: Goals minus Expected Goals
 
-`npG_minus_npxG`: 
+`npG_minus_npxG`: Non-Penalty Goals minus Non-Penalty Expected Goals
 
 ## Passing - Luke 
 
