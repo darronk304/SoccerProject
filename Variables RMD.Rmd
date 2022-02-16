@@ -377,63 +377,59 @@ Percentage of shots that are on target
 
 `Nation`:
 
-`Pos`:
+`Pos`: Possession
 
 `Age`:
 
 `Born`:
 
-`Touches`:
+`Touches`: Number of times a player touched the ball
 
-`Def_Pen`:
+`Def_Pen`: Touches in defensive penalty area
 
-`Def_3rd_Touches`:
+`Def_3rd_Touches`: Touches in defensive 1/3
 
-`Mid_3rd_Touches`:
+`Mid_3rd_Touches`: Touches in middle 1/3
 
-`Att_3rd_Touches`:
+`Att_3rd_Touches`: Touches in attacking 1/3
 
-`Att_Pen_Touches`:
+`Att_Pen_Touches`: Touches in attacking penalty area
 
-`Live_Touches`:
+`Live_Touches`: Live-ball touches
 
-`Succ_Dribbles`:
+`Succ_Dribbles`: Dribbles Completed Successfully
 
-`Att_Dribbles`:
+`Att_Dribbles : Dribbles Attempted
 
-`Succ_percent_Dribbles`:
+`Succ_percent_Dribbles`: Percentage of Dribbles Completed Successfully
 
-`#Pl_Dribbles`:
+`#Pl_Dribbles`: Number of Players Dribbled Past
 
-`Megs_Dribbles`:
+`Megs_Dribbles`: Number of times a player dribbled the ball through an opposing player's legs
 
-`Carries`:
+`Carries`: Number of times the player controlled the ball with their feet
 
-`TotDist_Carries`:
+`TotDist_Carries`: Total distance, in yards, a player moved the ball while controlling it with their feet, in any direction
 
-`PrgDist_Carries`:
+`PrgDist_Carries`: Progressive Distance; Total distance, in yards, a player moved the ball while controlling it with their feet towards the opponent's goal
 
-`Prog_Carries`:
+`Prog_Carries`: Carries that move the ball towards the opponent's goal at least 5 yards, or any carry into the penalty area
 
-`Final_Third_Carries`:
+`Final_Third_Carries`: Carries that enter the 1/3 of the pitch closest to the goa
 
-`Prog_Carries`:
+`CPA_Carries`: Carries into the 18-yard box
 
-`Final_Third_Carries`:
+`Mis_Carries`: Number of times a player failed when attempting to gain control of a ball
 
-`CPA_Carries`:
+`Dis_Carries`: Number of times a player loses control of the ball after being tackled by an opposing player
 
-`Mis_Carries`:
+`Targ_Receiving`: Number of times a player was the target of an attempted pass
 
-`Dis_Carries`:
+`Rec_Receiving`: Number of times a player successfully received a pass
 
-`Targ_Receiving`:
+`Rec_percent_Receiving`: Passes Received Percentage
 
-`Rec_Receiving`:
-
-`Rec_percent_Receiving`:
-
-`Prog_Receiving`:
+`Prog_Receiving`: Progressive Passes Received
 
 
 ## Playing Time - Nick 
