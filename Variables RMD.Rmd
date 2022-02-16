@@ -367,21 +367,21 @@ Percentage of shots that are on target
 
 ## Possessions - Darron 
 
-`Season_End_Year`:
+`Season_End_Year`: The year at the end of the season.
 
-`Squad`:
+`Squad`: Team
 
-`Comp`:
+`Comp`: Completions
 
-`Player`:
+`Player`: Players name
 
-`Nation`:
+`Nation`: Players Nationality
 
-`Pos`: Possession
+`Pos`: Players position
 
-`Age`:
+`Age`: Current age
 
-`Born`:
+`Born`: Year of Birth
 
 `Touches`: Number of times a player touched the ball
 
