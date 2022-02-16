@@ -305,65 +305,65 @@ Percentage of shots that are on target
 
 ## Defensive Actions - Darron
 
-`Season_End_Year`:
+`Season_End_Year`: The year at the end of the season.
 
-`Squad`:
+`Squad`: Team
 
-`Comp`:
+`Comp`: Completions
 
-`Player`:
+`Player`: Players name
 
-`Nation`:
+`Nation`: Players Nationality
 
-`Pos`:
+`Pos`: Players position
 
-`Age`:
+`Age`: Current age
 
-`Born`:
+`Born`: Year of Birth
 
-`Mins_Per_90`:
+`Mins_Per_90`: Minutes played divided by 90
+ 
+`Tkl`: Number of players tackled
 
-`Tkl`:
+`TklW`: Tackles in which the tackler's team won possession of the ball
 
-`TklW`:
+`Def_3rd`: Tackles in defensive 1/3
 
-`Def_3rd`:
+`Mid_3rd`: Tackles in middle 1/3
 
-`Mid_3rd`:
+`Att_3rd`: Tackles in attacking 1/3
 
-`Att_3rd`:
+`Tkl_vs_dribble`: Number of dribblers tackled
 
-`Tkl_vs_dribble`:
+`Att_vs_dribble`: Number of times dribbled past plus number of tackles
 
-`Att_vs_dribble`:
+`Press_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball
 
-`Press_Pressures`:
+`Succ_Pressures`: Number of times the squad gained possession withing five seconds of applying pressure
 
-`Succ_Pressures`:
+`Successful_Pressure_Percent`: Percentage of time the squad gained possession withing five seconds of applying pressure
 
-`Successful_Pressure_Percent`:
+`Def_3rd_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the defensive 1/3
 
-`Def_3rd_Pressures`:
+`Mid_3rd_Pressures`:Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the middle 1/3
 
-`Mid_3rd_Pressures`:
+`Att_3rd_Pressures`: Number of times applying pressure to opposing player who is receiving, carrying or releasing the ball, in the attacking 1/3
 
-`Att_3rd_Pressures`:
+`Blocks`: Number of times blocking the ball by standing in its path
 
-`Blocks`:
+`Sh_Blocks`: Number of times blocking a shot by standing in its path
 
-`Sh_Blocks`:
+`ShSv_Blocks`: Number of times blocking a shot that was on target, by standing in its path
 
-`ShSv_Blocks`:
+`Pass_Blocks`: Number of times blocking a pass by standing in its path
 
-`Pass_Blocks`:
+`Int`: Interceptions
 
-`Int`:
+`Tkl+Int`: Number of players tackled plus number of interceptions
 
-`Tkl+Int`:
+`Clr`: Clearances
 
-`Clr`:
-
-`Err`:
+`Err`: Mistakes leading to an opponent's shot
 
 ## Possessions - Darron 
 
